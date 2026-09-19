@@ -1,0 +1,118 @@
+# Teslim edilecek item (Material ismi, büyük harf)
+# head-<hash> veya ia:<namespace:id> formatı da desteklenir
+teslimat-item: WHEAT
+
+# Sezon bilgisi
+sezon-bilgisi: "ѕᴇᴢᴏɴ 1"
+
+# Sezon bitmesine kalan süre metni
+sure: "ѕᴇᴢᴏɴ ѕᴏɴᴜɴᴀ ᴋᴀᴅᴀʀ"
+
+# menü isimleri, itemsadder destekler
+menus:
+  ana-menu: "               ᴛᴇѕʟɪᴍᴀᴛ"
+  teslim-menu: "          ᴛᴇѕʟɪᴍᴀᴛ ᴍᴇɴüѕü"
+  siralama-menu: "            ɪʟᴋ 10"
+  asama-menu: "         ᴀşᴀᴍᴀʟᴀʀ"
+
+# ilk menü wheatın üstünde yazan lore
+# placeholders: %sezon_bilgisi%, %sure%, %item_adi%
+ana-menu-teslimat-lore:
+  - "&7ѕᴇᴢᴏɴ ʙɪʟɢɪѕɪ: &e%sezon_bilgisi%"
+  - "&7ʙᴜ ѕᴇᴢᴏɴ ᴛᴇѕʟɪᴍ ᴇᴅɪʟᴍᴇѕɪ"
+  - "&7ɢᴇʀᴇᴋᴇɴ ᴇşʏᴀ: &e%item_adi%"
+  - ""
+  - "&7ѕüʀᴇ: &e%sure%"
+  - ""
+  - "&6ᴡᴡᴡ.ѕᴜɴᴜᴄᴜɪѕᴍɪ.ᴄᴏᴍ"
+
+# teslim et loresi
+teslim-et-lore:
+  - "&7ᴛᴇѕʟɪᴍ ᴇᴛ"
+  - "&7ʙᴜʀᴀʏᴀ ᴛɪᴋʟᴀʏᴀʀᴀᴋ ᴇɴᴠᴀɴᴛᴇʀɪɴᴅᴇᴋɪ"
+  - "&7ᴛᴇѕʟɪᴍᴀᴛ ᴇşʟᴀʏᴀʀɪɴɪ ᴛᴇѕʟɪᴍ ᴇᴅᴇʙɪʟɪʀѕɪɴ"
+  - ""
+  - "&7ᴛᴇѕʟɪᴍ ᴇᴅɪʟᴇɴ ᴛᴏᴘʟᴀᴍ ᴇşʏᴀ: &e%teslimat_toplam%"
+
+# ilk 10 butonu
+ilk10-lore:
+  - "&6ɪʟᴋ 10"
+  - "&7ɪʟᴋ 10 ѕɪʀᴀʟᴀᴍᴀѕɪɴɪ ɢöʀüɴ"
+  - ""
+  - "&eɪʟᴋ 10 ѕɪʀᴀʟᴀᴍᴀѕɪɴᴀ ᴜʟᴀşᴍᴀᴋ ɪçɪɴ ᴛɪᴋʟᴀ!"
+
+# ilk 10 dolu slot yazısı
+# placeholders: %sira%, %oyuncu%, %teslimat_miktar%
+siralama-dolu-lore:
+  - "&e%sira%. &f%oyuncu%"
+  - "&7ᴛᴏᴘʟᴀᴍ ᴛᴇѕʟɪᴍ ᴇᴛᴛɪɢɪ ᴇѕʏᴀ ѕᴀʏɪѕɪ: &e%teslimat_miktar%"
+
+# ilk 10 kısımdaki ilk 10 da sıralamada boş olan kısımlar yani oyuncu yok ise
+siralama-bos-lore:
+  - "&7ʙᴏѕ"
+
+# aşamalar; teslimat menüsündeki aşamalar. lore kısmı ödüller: kısmından sonraki kısım içindir.
+# mesela 10 bin oyun parası yazıyor, otomatik ödüller kısmından sonra 10 bin oyun parası yazacaktır.
+asamalar:
+  asama1:
+    gereksinim: 20000
+    odul-komutlari:
+      - "eco give %player% 10000"
+      - "give %player% diamond 1"
+    lore:
+      - "&710 Bin oyun parası"
+      - "&71 Elmas"
+  asama2:
+    gereksinim: 50000
+    odul-komutlari:
+      - "eco give %player% 30000"
+      - "give %player% diamond 5"
+    lore:
+      - "&730 Bin oyun parası"
+      - "&75 Elmas"
+  asama3:
+    gereksinim: 100000
+    odul-komutlari:
+      - "eco give %player% 75000"
+      - "give %player% diamond_block 1"
+    lore:
+      - "&775 Bin oyun parası"
+      - "&71 Elmas Bloğu"
+  asama4:
+    gereksinim: 200000
+    odul-komutlari:
+      - "eco give %player% 150000"
+      - "give %player% netherite_ingot 1"
+    lore:
+      - "&7150 Bin oyun parası"
+      - "&71 Netherite Külçesi"
+  asama5:
+    gereksinim: 500000
+    odul-komutlari:
+      - "eco give %player% 500000"
+      - "give %player% netherite_block 1"
+    lore:
+      - "&7500 Bin oyun parası"
+      - "&71 Netherite Bloğu"
+
+# Aşama tamamlandığında gösterilecek lore ek satırları
+asama-tamamlandi-ek:
+  - ""
+  - "&aᴏᴅᴜʟᴜ ᴀʟᴍᴀᴋ ɪᴄɪɴ ᴛɪᴋʟᴀ!"
+
+# Aşama ödülü alındıysa gösterilecek ek satırlar
+asama-odul-alindi-ek:
+  - ""
+  - "&7ᴏᴅᴜʟ ᴀʟɪɴᴅɪ"
+
+# Aşama henüz tamamlanmadıysa gösterilecek ek satırlar
+asama-tamamlanmadi-ek:
+  - ""
+  - "&cʙᴜ ᴀѕᴀᴍᴀʏɪ ʜᴇɴᴜᴢ ᴛᴀᴍᴀᴍʟᴀᴍᴀᴅɪɴɪᴢ"
+
+# Aşama gereksinim + ödül başlığı (lore başı)
+# %gereksinim% ve %item_adi% kullanılabilir
+asama-gereksinim-lore:
+  - "&7ɢᴇʀᴇᴋѕɪɴɪᴍ: &e%gereksinim% &f%item_adi%"
+  - ""
+  - "&7ᴏᴅᴜʟʟᴇʀ:"

@@ -1,0 +1,23 @@
+name: esteslimat
+version: '1.0.0'
+main: com.espuw.teslimat.TeslimatPlugin
+api-version: '1.21'
+authors: [ 'Espuw Development' ]
+
+softdepend:
+  - PlaceholderAPI
+  - ItemsAdder
+
+commands:
+  teslimat:
+    description: Teslimat sistemini yönetir
+    usage: /teslimat [reload]
+    permission: teslimat.teslimat
+
+permissions:
+  teslimat.teslimat:
+    description: /teslimat komutunu kullanır
+    default: true
+  teslimat.reload:
+    description: /teslimat reload komutunu kullanır
+    default: op

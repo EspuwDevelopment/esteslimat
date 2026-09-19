@@ -1,0 +1,9 @@
+prefix: "&6sunucu ısmı &8»&r"
+
+teslim-edildi: "&a%miktar% ᴀᴅᴇᴛ &e%item% &aᴛᴇѕʟɪᴍ ᴇᴛᴛɪɴɪᴢ! &7(ᴛᴏᴘʟᴀᴍ: &e%toplam%&7)"
+teslim-edilecek-yok: "&cᴛᴇѕʟɪᴍ ᴇᴅᴇᴄᴇᴋ ᴇѕʏᴀɴɪᴢ ʏᴏᴋ!"
+odul-alindi: "&aᴏᴅᴜʟᴜɴᴜᴢ ʙᴀѕᴀʀɪʏʟᴀ ᴀʟɪɴᴅɪ!"
+asama-tamamlanmadi: "&cʙᴜ ᴀѕᴀᴍᴀʏɪ ʜᴇɴᴜᴢ ᴛᴀᴍᴀᴍʟᴀᴍᴀᴅɪɴɪᴢ"
+asama-zaten-alindi: "&cʙᴜ ᴀѕᴀᴍᴀɴɪɴ ᴏᴅᴜʟᴜɴᴜ ᴢᴀᴛᴇɴ ᴀʟᴅɪɴɪᴢ!"
+izin-yok: "&cʙᴜ ᴋᴏᴍᴜᴛᴜ ᴋᴜʟʟᴀɴᴍᴀᴋ ɪçɪɴ ɪᴢɴɪɴɪᴢ ʏᴏᴋ!"
+reload-tamam: "&aKonfigürasyon başarıyla yenilendi."
